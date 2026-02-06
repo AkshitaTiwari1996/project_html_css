@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.start {
+  background: white;
+  color: #1f3c88;
+}
+
+/* HERO BACKGROUND */
+.hero {
+  height: 100vh;
+  background-image: url("https://www.mintlify.com/hero/bg-light.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  margin-top: 80px;
+  max-width: 700px;
+}
+
+/* ANNOUNCEMENT */
+.announcement {
+  display: inline-flex;
+  gap: 10px;
+  background: #2f5568;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  background: #4caf50;
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.arrow {
+  background: rgba(255,255,255,0.2);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADING */
+h1 {
+  font-size: 44px;
+  margin: 10px 0;
+}
+
+p {
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+/* EMAIL BOX */
+.email-box {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-box input {
+  padding: 12px;
+  border: none;
+  border-radius: 22px 0 0 22px;
+  width: 220px;
+}
+
+.email-box button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0 22px 22px 0;
+  cursor: pointer;
+}
+
+.hero-image {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 20px;
+  opacity: 0.95;
+}
+
+.brands{
+  grid-column: auto;
+  color:black;
+  
+  
+}
+
+.brands {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+ 
+  padding: 10px;
+}
+.brands div {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.writing {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+
+}
+
+.box{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  gap: 15px;
+  color: #010101;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+
+.box1{
+border:2px solid grey;
+border-radius: 20px;
+opacity: 0.7;
+margin-top: 30px;
+
+}
+
+.box2{
+  border:2px solid grey;
+  border-radius : 20px;
+  opacity: 0.7;
+  margin-top: 30px;
+  
+}
+
+.boxx{
+  padding: 10px;
+  color:black;
+  display: grid;
+  grid-template-columns: auto ;
+  border:2px solid grey;
+  border-radius: 20px;
+
+
+}
+
+.explore {
+  background-color: #f5f5f5;
+  color: black;
+  padding: 60px 20px;
+}
+
+.more {
+  display: grid;
+  grid-template-columns: auto auto;  gap: 30px;
+   text-align:center;
+}
+
+
+
+.more1, .more2 {
+  
+  border: 2px solid grey;
+  padding: 20px;
+}
+
+.below{
+  color: black;
+  text-align:center;
+  background-color: rgba(0, 0, 5, 0.03);
+
+}
+
+.below1{
+  border: 2px solid #c8c8c8;
+  background-color: rgba(0, 0, 5, 0.03);
+  color: #010101;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  padding-top: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 4%;
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  
+ 
+}
+
+.b1, .b2, .b3, .b4, .b5{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.below2, .below3{
+  color: #0c0c0c9c;
+  display: grid;
+  grid-template-columns: auto;
+  border: 2px solid #c8c8c8;
+  text-align:left;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-left:2%;
+  font-size:15px;
+}/*
+.below3{
+   margin-bottom: 10%;
+}
+.below31{
+  margin-top:5%;
+  width:156px;
+  height: 40px;
+  border-radius: 10px;
+}
+.below32{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:7%;
+
+}*/
+.below3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e5e5e5;
+  padding: 20px;
+}
+
+.below31,.below32 {
+  flex: 1;
+}
+
+.below31 {
+  text-align: left;
+}
+
+.below32 {
+  text-align: center;
+}
+
