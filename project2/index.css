@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(54, 53, 53);
+}
+
+nav {
+  display: block;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.h1{
+    color: #ffff;
+    margin-left: auto;
+    font-size: 40px;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5%;
+    padding-top: 2%;
+
+}
+.h2{
+    list-style: none;
+    color:#ffff;
+    text-decoration: none;
+    font-synthesis-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+
+.h3{color:#ffff;
+    display: flex;
+    justify-content: right;
+}
+
+.h31, .h32 {
+    
+    border-radius: 15%;
+    height:fit-content;
+    width:max-content;
+}
+.h33{
+    margin-top:0.5px;
+    margin-right:0.5px;
+}
+
+.m1{
+    color: #ffff;
+    font-size: 30px;
+    margin-left:90px;
+}
+
+.m12{
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.image{
+    margin-left: 120px;
+    margin-top:50px;
+   color: #ffff;
+}
+
+.m2{
+    color: #ffff;
+    text-align: center;
+    font-size:12px;
+
+}
+
+.brands{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 2px;     
+    padding: 10px;
+    color: #ffff;
+
+}
+.brands-flex{
+    text-decoration-style: double;
+    font-weight: bold;
+
+    border: 2px solid #333; 
+    padding: 20px;
+    background-color: #010101;
+    flex: auto auto auto auto; 
+    box-sizing: border-box;
+}
