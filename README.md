@@ -1,7 +1,7 @@
 ## Project Preview
 
-![Output](pl.png)
-![Output](p2.png)
+![Output](p1.jpg)
+![Output](p2.jpg)
 
 # project_html_css
 #Created a documentation platform-Mintify
