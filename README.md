@@ -1,3 +1,8 @@
+## Project Preview
+
+![Output](pl.png)
+![Output](p2.png)
+
 # project_html_css
 #Created a documentation platform-Mintify
 *Created nav bar with different links inside it
