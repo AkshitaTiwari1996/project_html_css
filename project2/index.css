@@ -31,6 +31,8 @@ nav {
 
 }
 
+
+
 .h3{color:#ffff;
     display: flex;
     justify-content: right;
@@ -91,4 +93,8 @@ nav {
     background-color: #010101;
     flex: auto auto auto auto; 
     box-sizing: border-box;
+}
+
+.agent{
+    color: #ffff;
 }
